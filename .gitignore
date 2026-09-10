@@ -1,0 +1,36 @@
+# Source documents (not part of the published website)
+*.pdf
+*.xlsx
+*.xls
+
+# Raw/unprocessed source images kept at project root
+# (already cleaned + published as assets/images/products/jq-djc-l1.webp and jq-djc-l4.webp)
+/electrowinning kecil.png
+/electrowinning 4sel.png
+
+# Root-level logo copies (published copies live in assets/images/logo/)
+/logo.png
+/tsm-logo.png
+
+# Temporary / working folders
+incoming-images/
+scratchpad/
+tmp/
+
+# Testing screenshots
+screenshots/
+screenshots2/
+*.screenshot.png
+
+# Python cache (from local image-processing scripts)
+__pycache__/
+*.pyc
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/IDE
+.vscode/
+.idea/
